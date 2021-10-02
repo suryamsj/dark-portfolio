@@ -1,0 +1,194 @@
+// Variable
+$bg:#1A1A1A;
+$color-w:#FFFFFF;
+$color-g:#9BA3A3;
+$paragraph:'Poppins',
+sans-serif;
+$header:'Spartan',
+sans-serif;
+
+// Body
+body {
+    background: $bg;
+    color: $color-w;
+    font-family: $paragraph;
+}
+
+// Navbar
+.bg-navbar {
+    background: $bg;
+
+}
+
+.navbar-brand {
+    font-family: $header;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.nav-external::after {
+    content: " ↗";
+}
+
+// Header
+header {
+    .header-title {
+        margin-top: 2rem;
+        font-size: 3.4rem;
+        font-family: $header;
+        font-weight: 700;
+    }
+}
+
+// All Section
+.container {
+    max-width: 1200px;
+}
+
+section {
+    .section-title {
+        font-family: $header;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-paragraph {
+        color: $color-g;
+        font-size: 1.4rem;
+    }
+
+    .section-link {
+        text-decoration: underline;
+        color: $color-w;
+
+        &:hover {
+            color: $color-w;
+        }
+    }
+
+    .section-external {
+        text-decoration: underline;
+        color: $color-w;
+
+        &:hover {
+            color: $color-w;
+        }
+
+        &::after {
+            content: " ↗";
+        }
+    }
+
+    .project-title {
+        font-family: $header;
+        font-weight: 700;
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-sub {
+        font-size: 1.5rem;
+        color: $color-g;
+    }
+}
+
+.experience {
+    .experience-title {
+        font-family: $header;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .experience-sub {
+        color: $color-g;
+        font-size: 1.4rem;
+    }
+}
+
+.social-media {
+    padding: 1rem 0;
+
+    a {
+        font-size: 1.4rem;
+    }
+}
+
+.project-link {
+    text-decoration: none;
+    color: $color-w;
+
+    &:hover {
+        color: $color-w;
+    }
+
+    .project {
+        width: 100%;
+        margin-bottom: 2rem;
+
+        .image-box {
+            overflow: hidden;
+            height: 340px;
+            margin-bottom: 40px;
+            border-radius: 6px;
+            background-color: hsla(0, 0%, 100%, 0.6);
+            background-image: url(https://assets.website-files.com/5c3829b…/5c4e955…_thumb-placeholder%402x.png);
+            background-position: 90px 40px;
+            background-size: 460px;
+            background-repeat: no-repeat;
+        }
+
+        .image-box-one {
+            background-color: #4353ff;
+            background-image: url('../img/example.png');
+            background-size: 490px;
+        }
+
+        .image-box-two {
+            background-color: #962cab;
+            background-image: url('../img/example-2.png');
+            background-size: 490px;
+        }
+
+        .image-box-three {
+            background-color: #b8b8b8;
+            background-image: url('../img/example-3.png');
+            background-size: 490px;
+        }
+
+        .image-box-four {
+            background-color: #2ada86;
+            background-image: url('../img/example-4.png');
+            background-size: 490px;
+        }
+
+        .image-box-five {
+            background-color: #fd4c91;
+            background-image: url('../img/example-5.png');
+            background-size: 490px;
+        }
+
+        .image-box-six {
+            background-color: #1ea3e6;
+            background-image: url('../img/example-6.png');
+            background-size: 490px;
+        }
+
+        h2 {
+            font-family: $header;
+            margin-top: 2rem;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        p {
+            color: $color-g;
+            font-size: 1.3rem;
+        }
+    }
+}

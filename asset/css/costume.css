@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body {
+  background: #1A1A1A;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-navbar {
+  background: #1A1A1A;
+}
+
+.navbar-brand {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-external::after {
+  content: " ↗";
+}
+
+header .header-title {
+  margin-top: 2rem;
+  font-size: 3.4rem;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+section .section-title {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section .section-paragraph {
+  color: #9BA3A3;
+  font-size: 1.4rem;
+}
+
+section .section-link {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+section .section-link:hover {
+  color: #FFFFFF;
+}
+
+section .section-external {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+section .section-external:hover {
+  color: #FFFFFF;
+}
+
+section .section-external::after {
+  content: " ↗";
+}
+
+section .project-title {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+section .project-sub {
+  font-size: 1.5rem;
+  color: #9BA3A3;
+}
+
+.experience .experience-title {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.experience .experience-sub {
+  color: #9BA3A3;
+  font-size: 1.4rem;
+}
+
+.social-media {
+  padding: 1rem 0;
+}
+
+.social-media a {
+  font-size: 1.4rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.project-link:hover {
+  color: #FFFFFF;
+}
+
+.project-link .project {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-link .project .image-box {
+  overflow: hidden;
+  height: 340px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-image: url(https://assets.website-files.com/5c3829b…/5c4e955…_thumb-placeholder%402x.png);
+  background-position: 90px 40px;
+  background-size: 460px;
+  background-repeat: no-repeat;
+}
+
+.project-link .project .image-box-one {
+  background-color: #4353ff;
+  background-image: url("../img/example.png");
+  background-size: 490px;
+}
+
+.project-link .project .image-box-two {
+  background-color: #962cab;
+  background-image: url("../img/example-2.png");
+  background-size: 490px;
+}
+
+.project-link .project .image-box-three {
+  background-color: #b8b8b8;
+  background-image: url("../img/example-3.png");
+  background-size: 490px;
+}
+
+.project-link .project .image-box-four {
+  background-color: #2ada86;
+  background-image: url("../img/example-4.png");
+  background-size: 490px;
+}
+
+.project-link .project .image-box-five {
+  background-color: #fd4c91;
+  background-image: url("../img/example-5.png");
+  background-size: 490px;
+}
+
+.project-link .project .image-box-six {
+  background-color: #1ea3e6;
+  background-image: url("../img/example-6.png");
+  background-size: 490px;
+}
+
+.project-link .project h2 {
+  font-family: "Spartan", sans-serif;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.project-link .project p {
+  color: #9BA3A3;
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=costume.css.map */
