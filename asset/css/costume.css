@@ -173,4 +173,10 @@ section .project-sub {
   color: #9BA3A3;
   font-size: 1.3rem;
 }
+
+@media (max-width: 362px) {
+  header .header-title {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=costume.css.map */

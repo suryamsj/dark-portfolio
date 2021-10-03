@@ -2,10 +2,12 @@
 $bg:#1A1A1A;
 $color-w:#FFFFFF;
 $color-g:#9BA3A3;
+$breakpoint-sm:576px;
 $paragraph:'Poppins',
 sans-serif;
 $header:'Spartan',
 sans-serif;
+
 
 // Body
 body {
@@ -189,6 +191,15 @@ section {
         p {
             color: $color-g;
             font-size: 1.3rem;
+        }
+    }
+}
+
+// Responsive
+@media (max-width:362px) {
+    header {
+        .header-title {
+            font-size: 2rem;
         }
     }
 }
