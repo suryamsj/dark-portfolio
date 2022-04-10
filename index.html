@@ -51,6 +51,10 @@
     </nav>
     <!-- End Navbar -->
 
+                 <!-- Animated particles -->
+            <div x-data="initHero()" x-init="initParticles()" id="particles-js"></div>
+    
+
     <!-- Start Main -->
     <main class="flex-shrink-0">
         <!-- Start Header -->
@@ -67,7 +71,9 @@
 
         <!-- Start Section About -->
 
-<div x-data="initHero()" x-init="initParticles()" id="particles-js"></div>
+<!-- Animated particles -->
+            <div x-data="initHero()" x-init="initParticles()" id="particles-js"></div>
+    
     
 
         <section class="py-5" id="about">
@@ -193,6 +199,8 @@
 
     <!-- Vendor JS -->
     <script src="asset/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/bundle.js"></script>
 </body>
 
 </html>
