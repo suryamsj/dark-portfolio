@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>sandimixyz</title>
+  <link rel='stylesheet' href='https://unpkg.com/augmented-ui@2.0.0/augmented-ui.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<code class="code-container" content="// mixyz 💜">
+  <div class="glow-container">
+    <div class="augs" data-augmented-ui></div>
+  </div>
+  <section class="augs bg" data-augmented-ui>
+    <button class="dots" onclick="changeMode()" title="change mode"></button>
+    <input value="SandiMiXyz">
+    <div class="code highcontrast-dark">
+      <textarea id="code">
+@keyframes cast-bit-to-space-toggle {
+  to { --cbtst-space-toggle: ; }
+}
+
+@property --cbtst-space-toggle {
+  syntax: "*";
+  initial-value: initial;
+  inherits: false;
+}
+
+:where(.cbtst) {
+  --cbtst-animation: cast-bit-to-space-toggle
+    1ms linear both var(--cbtst-bit, 0);
+  animation: var(--cbtst-animation);
+}
+
+/* usage */
+.my-el.cbtst {
+  --cbtst-bit: 1; /* provide input value of 0 or 1 */
+  /* var(--cbtst-space-toggle) is the output */
+}
+      </textarea>
+    </div>
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/javascript/javascript.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/css/css.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
