@@ -19,27 +19,10 @@
     <input value="SandiMiXyz">
     <div class="code highcontrast-dark">
       <textarea id="code">
-@keyframes cast-bit-to-space-toggle {
-  to { --cbtst-space-toggle: ; }
-}
-
-@property --cbtst-space-toggle {
-  syntax: "*";
-  initial-value: initial;
-  inherits: false;
-}
-
-:where(.cbtst) {
-  --cbtst-animation: cast-bit-to-space-toggle
-    1ms linear both var(--cbtst-bit, 0);
-  animation: var(--cbtst-animation);
-}
-
-/* usage */
-.my-el.cbtst {
-  --cbtst-bit: 1; /* provide input value of 0 or 1 */
-  /* var(--cbtst-space-toggle) is the output */
-}
+<div class="ball-wrapper">
+    <div class="ball"></div>
+    <div class="shadow"></div>
+ </div>
       </textarea>
     </div>
   </section>
